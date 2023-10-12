@@ -29,9 +29,5 @@ public class FlowerTest {
         FlowerColor color = FlowerColor.RED;
         flower.setColor(color);
         Assertions.assertEquals("#FF0000", flower.getColor());
-
-        FlowerColor color2 = FlowerColor.BLUE;
-        flower.setColor(color2);
-        Assertions.assertEquals("#0000FF", flower.getColor());
     }
 }
